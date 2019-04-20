@@ -2,5 +2,7 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>car2.png</file>
+        <file>spacemouse.png</file>
+        <file>functions.js</file>
     </qresource>
 </RCC>
