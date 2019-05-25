@@ -44,13 +44,13 @@ INCLUDEPATH +=./SFML/include
 SOURCES += \
         main.cpp \
         widget.cpp \
-    app/tetris.cpp \
+    tetris.cpp \
     getname.cpp \
     leaderboard.cpp
 
 HEADERS += \
         widget.h \
-    app/functions.h \
+    functions.h \
     SFML/include/SFML/Audio/AlResource.hpp \
     SFML/include/SFML/Audio/Export.hpp \
     SFML/include/SFML/Audio/InputSoundFile.hpp \
@@ -157,9 +157,6 @@ FORMS += \
         widget.ui \
     getname.ui \
     leaderboard.ui
-
-SUBDIRS += \
-    app/app.pro
 
 DISTFILES += \
     app/images/background.png \
