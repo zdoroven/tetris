@@ -31,7 +31,7 @@ void Form::on_playButton_clicked()
     this->close();
     tetris();
     this->show();
-    QFile file("../muneoftetris/leaderlist");
+    QFile file("../tetris/leaderlist");
     if(file.open(QIODevice::WriteOnly | QIODevice::Text))
     {
         QTextStream writeStream(&file);
