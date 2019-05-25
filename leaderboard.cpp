@@ -25,7 +25,7 @@ void leaderboard::on_backButton_clicked()
 void leaderboard::on_updateButton_clicked()
 {
     QString string;
-    QFile file("../muneoftetris/leaderlist");
+    QFile file("../tetris/leaderlist");
     file.open(QIODevice::ReadOnly);
     while((string = file.readLine()) != "")
     {
