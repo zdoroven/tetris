@@ -1,6 +1,6 @@
 #include "getname.h"
 #include "ui_getname.h"
-#include "app/functions.h"
+#include "functions.h"
 #include <QFile>
 #include <QString>
 #include <QCoreApplication>
